@@ -11,15 +11,15 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.inner}>
-        <Link href="#home" className={styles.logo}>
+        <Link href="#/" className={styles.logo}>
           {site.name}
         </Link>
 
         <nav className={styles.desktopNav}>
           {site.nav.map((item) => (
-            <a key={item.href} href={item.href} className={styles.link}>
+            <Link key={item.href} href={item.href} className={styles.link}>
               {item.label}
-            </a>
+            </Link>
           ))}
           <a href={site.donateUrl} className={styles.donate}>
             Donate
@@ -39,14 +39,14 @@ export default function Header() {
       {open && (
         <nav className={styles.mobileNav}>
           {site.nav.map((item) => (
-            <a
+            <Link
               key={item.href}
               href={item.href}
               onClick={() => setOpen(false)}
               className={styles.link}
             >
               {item.label}
-            </a>
+            </Link>
           ))}
           <a href={site.donateUrl} className={styles.donate}>
             Donate

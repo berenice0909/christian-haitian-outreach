@@ -1,13 +1,17 @@
 export const site = {
     name: "Christian Haitian Outreach",
     shortName: "CHO",
+    hero: {
+      tagline: "TAGLINE FROM OLD SITE",
+      subtext: "A short sentence about what CHO does.",
+    },
   
     nav: [
-      { label: "Home", href: "#home" },
-      { label: "About", href: "#about" },
-      { label: "Updates", href: "#updates" },
-      { label: "Mission", href: "#mission" },
-      { label: "Gallery", href: "#gallery" },
+      { label: "Home", href: "/" },
+      { label: "About", href: "/#about" },
+      { label: "Mission", href: "/#mission" },
+      { label: "Updates", href: "/updates" },
+      { label: "Gallery", href: "/gallery" },
       { label: "Contact", href: "#contact" },
     ],
   

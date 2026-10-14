@@ -1,0 +1,29 @@
+@reference "../../app/globals.css";
+
+.hero {
+  @apply flex min-h-[70vh] items-center justify-center bg-gray-800 px-4 text-center text-white;
+}
+
+.inner {
+  @apply max-w-3xl;
+}
+
+.tagline {
+  @apply text-4xl font-bold md:text-6xl;
+}
+
+.subtext {
+  @apply mt-6 text-lg text-gray-200 md:text-xl;
+}
+
+.actions {
+  @apply mt-10 flex flex-wrap justify-center gap-4;
+}
+
+.primary {
+  @apply rounded-full bg-red-600 px-8 py-3 font-semibold hover:bg-red-700;
+}
+
+.secondary {
+  @apply rounded-full border-2 border-white px-8 py-3 font-semibold hover:bg-white hover:text-gray-900;
+}
