@@ -5,7 +5,13 @@ export const site = {
       tagline: "TAGLINE FROM OLD SITE",
       subtext: "A short sentence about what CHO does.",
     },
-  
+    about: {
+      heading: "New Beginnings",
+      paragraphs: [
+        "Founded by Eleanor \"Mom\" Workman in 1974, Christian Haitian Outreach (CHO) supports the orphans, children, and poor of Haiti.",
+        "We are excited to announce that Mom's precious son, Dr. Franco Jean-Louis, is now overseeing CHO and all operations in Haiti. He is continuing Mom Eleanor's vision and honoring her legacy through the care of her precious children and organization.",
+      ],
+    },
     nav: [
       { label: "Home", href: "/" },
       { label: "About", href: "/#about" },

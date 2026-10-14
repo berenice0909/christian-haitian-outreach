@@ -1,0 +1,17 @@
+@reference "../../app/globals.css";
+
+.about {
+  @apply bg-white px-4 py-20;
+}
+
+.inner {
+  @apply mx-auto max-w-3xl text-center;
+}
+
+.heading {
+  @apply mb-8 text-3xl font-bold text-blue-900 md:text-4xl;
+}
+
+.paragraph {
+  @apply mb-4 text-lg leading-relaxed text-gray-700;
+}
