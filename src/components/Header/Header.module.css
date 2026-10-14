@@ -1,0 +1,32 @@
+@reference "../../app/globals.css";
+.header {
+  @apply sticky top-0 z-50 border-b border-gray-200 bg-white/95 backdrop-blur;
+}
+
+.inner {
+  @apply mx-auto flex h-16 max-w-6xl items-center justify-between px-4;
+}
+
+.logo {
+  @apply text-lg font-bold text-blue-900;
+}
+
+.desktopNav {
+  @apply hidden items-center gap-6 md:flex;
+}
+
+.link {
+  @apply text-gray-700 hover:text-blue-900;
+}
+
+.donate {
+  @apply rounded-full bg-red-600 px-5 py-2 text-center font-semibold text-white hover:bg-red-700;
+}
+
+.menuButton {
+  @apply p-2 text-2xl md:hidden;
+}
+
+.mobileNav {
+  @apply flex flex-col gap-4 border-t border-gray-200 bg-white px-4 py-4 md:hidden;
+}
