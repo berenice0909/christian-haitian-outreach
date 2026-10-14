@@ -1,0 +1,37 @@
+@reference "../../app/globals.css";
+
+.mission {
+  @apply bg-gray-50 px-4 py-20;
+}
+
+.inner {
+  @apply mx-auto max-w-6xl;
+}
+
+.heading {
+  @apply mb-6 text-center text-3xl font-bold text-blue-900 md:text-4xl;
+}
+
+.intro {
+  @apply mx-auto mb-12 max-w-3xl text-center text-lg leading-relaxed text-gray-700;
+}
+
+.columns {
+  @apply grid items-center gap-10 md:grid-cols-2;
+}
+
+.photo {
+  @apply aspect-[4/3] rounded-lg bg-gray-300;
+}
+
+.list {
+  @apply space-y-6;
+}
+
+.point {
+  @apply flex gap-3 text-lg text-gray-800;
+}
+
+.marker {
+  @apply mt-1 text-red-600;
+}

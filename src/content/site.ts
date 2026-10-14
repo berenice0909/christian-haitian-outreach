@@ -12,6 +12,17 @@ export const site = {
         "We are excited to announce that Mom's precious son, Dr. Franco Jean-Louis, is now overseeing CHO and all operations in Haiti. He is continuing Mom Eleanor's vision and honoring her legacy through the care of her precious children and organization.",
       ],
     },
+    mission: {
+      heading: "Our Mission",
+      intro:
+        "Christian Haitian Outreach is a multifaceted ministry reaching out to heal, educate, feed and house the hurting children in Haiti. We are dedicated to:",
+      points: [
+        "Providing total health, education & welfare care for each child",
+        "Being an orphanage or children's agency for Haitian children",
+        "Evangelizing the country of Haiti",
+        "Winning souls, providing Christian education, training, and discipleship programs for Haitian Christians, both leadership and laity.",
+      ],
+    },
     nav: [
       { label: "Home", href: "/" },
       { label: "About", href: "/#about" },
