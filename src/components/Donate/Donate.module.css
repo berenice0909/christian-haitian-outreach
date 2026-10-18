@@ -1,0 +1,41 @@
+@reference "../../app/globals.css";
+
+.donate {
+  @apply bg-gray-50 px-4 py-20;
+}
+
+.inner {
+  @apply mx-auto max-w-4xl text-center;
+}
+
+.heading {
+  @apply mb-4 text-3xl font-bold text-blue-900 md:text-4xl;
+}
+
+.intro {
+  @apply mx-auto mb-12 max-w-2xl text-lg leading-relaxed text-gray-700;
+}
+
+.options {
+  @apply grid gap-6 md:grid-cols-2;
+}
+
+.card {
+  @apply flex flex-col items-center rounded-lg bg-white p-8 shadow-sm ring-1 ring-gray-200;
+}
+
+.cardTitle {
+  @apply mb-2 text-xl font-semibold text-gray-900;
+}
+
+.cardText {
+  @apply mb-6 text-gray-600;
+}
+
+.button {
+  @apply mt-auto rounded-full bg-red-600 px-8 py-3 font-semibold text-white hover:bg-red-700;
+}
+
+.phone {
+  @apply mt-auto text-2xl font-bold text-blue-900 hover:underline;
+}
