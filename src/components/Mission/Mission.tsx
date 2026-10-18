@@ -1,5 +1,6 @@
 import { site } from "@/content/site";
 import styles from "./Mission.module.css";
+import Image from "next/image";
 
 export default function Mission() {
   const { mission } = site;
@@ -11,8 +12,15 @@ export default function Mission() {
         <p className={styles.intro}>{mission.intro}</p>
 
         <div className={styles.columns}>
-          <div className={styles.photo} aria-hidden="true" />
-
+          <div className={styles.photo}>
+            <Image
+              src={mission.photo.src}
+              alt={mission.photo.alt}
+              fill
+              sizes="(min-width: 768px) 50vw, 100vw"
+              className={styles.image}
+            />
+          </div>
           <ul className={styles.list}>
             {mission.points.map((point) => (
               <li key={point} className={styles.point}>

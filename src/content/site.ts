@@ -16,7 +16,12 @@ export const site = {
       heading: "Our Mission",
       intro:
         "Christian Haitian Outreach is a multifaceted ministry reaching out to heal, educate, feed and house the hurting children in Haiti. We are dedicated to:",
-      points: [
+      
+        photo: {
+          src: "/images/gallery/boy-girl-silly-faces.jpg",
+          alt: "A young boy and girl making surprised, silly faces",
+        },
+          points: [
         "Providing total health, education & welfare care for each child",
         "Being an orphanage or children's agency for Haitian children",
         "Evangelizing the country of Haiti",
@@ -44,6 +49,15 @@ export const site = {
     // ask if CHO wants Apple Pay, a hosted donation page could een replace the PayPal button entirely,
     // those pages take cards too,  fewer accounts is simpler 
     //  But choosing a payment provider means fees, who manages the account, where the money lands)
+    gallery: [
+      { src: "/images/gallery/franco-hugging.jpg", alt: "Dr. Franco Jean-Louis hugging a young child" },
+      { src: "/images/gallery/boy-girl-silly-faces.jpg", alt: "A young boy and girl making surprised, silly faces" },
+      { src: "/images/gallery/lunch-room.jpg", alt: "Children eating lunch together in the dining room" },
+      { src: "/images/gallery/sleeping-arrangement.jpg", alt: "Beds lined up in the children's sleeping room" },
+      { src: "/images/gallery/toddler-in-yellow.jpg", alt: "A smiling toddler dressed in yellow" },
+      { src: "/images/gallery/young-group.jpg", alt: "A group of young children together" },
+      { src: "/images/gallery/young-group2.jpg", alt: "Young children gathered outside" },
+    ],
     nav: [
       { label: "Home", href: "/" },
       { label: "About", href: "/#about" },

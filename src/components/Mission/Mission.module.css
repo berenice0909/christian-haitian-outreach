@@ -21,7 +21,11 @@
 }
 
 .photo {
-  @apply aspect-4/3 rounded-lg bg-gray-300;
+  @apply relative aspect-4/3 overflow-hidden rounded-lg bg-gray-300;
+}
+
+.image {
+  @apply object-cover;
 }
 
 .list {

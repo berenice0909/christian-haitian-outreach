@@ -1,0 +1,13 @@
+@reference "../../app/globals.css";
+
+.grid {
+  @apply grid grid-cols-2 gap-3 md:grid-cols-3 md:gap-4;
+}
+
+.item {
+  @apply relative aspect-square overflow-hidden rounded-lg bg-gray-200;
+}
+
+.image {
+  @apply object-cover transition-transform duration-300 hover:scale-105;
+}
