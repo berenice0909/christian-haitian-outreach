@@ -21,7 +21,7 @@
 }
 
 .photo {
-  @apply aspect-[4/3] rounded-lg bg-gray-300;
+  @apply aspect-4/3 rounded-lg bg-gray-300;
 }
 
 .list {

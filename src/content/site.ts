@@ -23,6 +23,17 @@ export const site = {
         "Winning souls, providing Christian education, training, and discipleship programs for Haitian Christians, both leadership and laity.",
       ],
     },
+    founder: {
+      heading: "Founder",
+      name: "Mom Eleanor Workman",
+      excerpt:
+        "Eleanor Workman is a missionary whose heart beats for a single purpose: to share Jesus with the poor people of Haiti and rescue abandoned babies in this impoverished island nation.",
+      paragraphs: [
+        "She began in 1974 when she found infant twins on a garbage dump with their terminally ill mother, who had been evicted from her little hut because she could not pay the $3.00 per month for rent. The mother then signed her babies over to Eleanor Workman before she died, and the orphanage ministry was born. Eleanor acquired land, built a building and her family grew rapidly.",
+        "CHO's ministry came into being because Eleanor Workman, a choir director and active church worker with a successful job, heard the call to full-time missions work. She answered the call by laying aside her own ambitions and dedicating her life to serve needy children in Haiti. She has seen countless miracles of supply and intervention despite impossible circumstances. Her life and ministry inspire others to totally commit themselves to God and see His divine purposes fulfilled in their lives.",
+      ],
+      videoUrl: "https://youtu.be/LVefa4MchC4",
+    },
     nav: [
       { label: "Home", href: "/" },
       { label: "About", href: "/#about" },
@@ -40,6 +51,5 @@ export const site = {
       email: "contact@christianhaitianoutreach.org",
       phone: "305-458-1098",
     },
-  
-    founderVideoUrl: "https://youtu.be/LEf4aMchC4", // TODO: double-check this link
+
   };

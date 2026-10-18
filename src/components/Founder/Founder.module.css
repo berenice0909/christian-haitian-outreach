@@ -1,0 +1,56 @@
+@reference "../../app/globals.css";
+
+.founder {
+  @apply bg-white px-4 py-20;
+}
+
+.inner {
+  @apply mx-auto max-w-4xl;
+}
+
+.heading {
+  @apply text-center text-sm font-semibold uppercase tracking-widest text-red-600;
+}
+
+.name {
+  @apply mb-10 mt-2 text-center text-3xl font-bold text-blue-900 md:text-4xl;
+}
+
+.excerpt {
+  @apply mx-auto mt-10 max-w-3xl text-center text-lg leading-relaxed text-gray-700;
+}
+
+/* "Read more" */
+.readMore {
+  @apply mx-auto mt-4 max-w-3xl text-center;
+}
+
+.summary {
+  @apply inline-flex cursor-pointer items-center gap-2 font-semibold text-red-600 hover:text-red-700;
+  list-style: none;
+}
+
+.summary::-webkit-details-marker {
+  display: none;
+}
+
+.arrow {
+  @apply transition-transform;
+}
+
+.readMore[open] .arrow {
+  @apply rotate-90;
+}
+
+.lessText,
+.readMore[open] .moreText {
+  display: none;
+}
+
+.readMore[open] .lessText {
+  display: inline;
+}
+
+.paragraph {
+  @apply mt-4 text-left text-lg leading-relaxed text-gray-700;
+}
