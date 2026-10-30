@@ -23,7 +23,7 @@
 }
 
 .playIcon {
-  @apply flex h-16 w-16 items-center justify-center rounded-full bg-red-600 pl-1 text-2xl md:h-20 md:w-20 md:text-3xl;
+  @apply flex h-16 w-16 items-center justify-center rounded-full bg-flag-red pl-1 text-2xl md:h-20 md:w-20 md:text-3xl;
 }
 
 .label {

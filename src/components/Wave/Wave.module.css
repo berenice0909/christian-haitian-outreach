@@ -1,0 +1,10 @@
+@reference "../../app/globals.css";
+
+.wave {
+  @apply -mb-px block h-10 w-full md:h-14;
+}
+
+/* Same curve as .wave, with extra room below for the fade */
+.soft {
+  @apply -mb-px block h-13 w-full md:h-18;
+}

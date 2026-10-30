@@ -1,19 +1,21 @@
 @reference "../../app/globals.css";
 
 .hero {
-  @apply flex min-h-[70vh] items-center justify-center bg-gray-800 px-4 text-center text-white;
+  @apply flex min-h-[70vh] items-center justify-center px-4 text-center text-white;
+  background-image: var(--hero-gradient);
 }
 
 .inner {
-  @apply max-w-3xl;
+  @apply max-w-6xl;
 }
 
+/* One line on desktop; on smaller screens it wraps into two even lines */
 .tagline {
-  @apply text-4xl font-bold md:text-6xl;
+  @apply text-4xl font-bold text-balance md:text-5xl lg:text-[3.5rem];
 }
 
 .subtext {
-  @apply mt-6 text-lg text-gray-200 md:text-xl;
+  @apply mt-6 text-lg text-white/85 md:text-xl;
 }
 
 .actions {
@@ -21,9 +23,9 @@
 }
 
 .primary {
-  @apply rounded-full bg-red-600 px-8 py-3 font-semibold hover:bg-red-700;
+  @apply rounded-full border-2 border-transparent bg-flag-red px-8 py-3 font-semibold hover:bg-flag-red-dark;
 }
 
 .secondary {
-  @apply rounded-full border-2 border-white px-8 py-3 font-semibold hover:bg-white hover:text-gray-900;
+  @apply rounded-full border-2 border-white px-8 py-3 font-semibold hover:bg-white hover:text-navy;
 }

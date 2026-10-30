@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { site } from "@/content/site";
 import styles from "./Header.module.css";
@@ -11,7 +12,15 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.inner}>
-        <Link href="#/" className={styles.logo}>
+        <Link href="/" className={styles.logo}>
+          <Image
+            src="/images/cho-logo.png"
+            alt=""
+            width={40}
+            height={40}
+            priority
+            className={styles.logoImage}
+          />
           {site.name}
         </Link>
 

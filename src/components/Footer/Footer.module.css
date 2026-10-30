@@ -1,7 +1,8 @@
 @reference "../../app/globals.css";
 
 .footer {
-  @apply bg-blue-900 text-white;
+  @apply text-white;
+  background-image: var(--hero-gradient);
 }
 
 .inner {
@@ -13,14 +14,14 @@
 }
 
 .text {
-  @apply text-blue-100;
+  @apply text-white/80;
 }
 
 .link {
-  @apply text-blue-100 underline-offset-4 hover:text-white hover:underline;
+  @apply text-white/80 underline-offset-4 hover:text-white hover:underline;
 }
 
 
 .bottom {
-  @apply border-t border-blue-800 py-4 text-center text-sm text-blue-200;
+  @apply border-t border-white/15 py-4 text-center text-sm text-white/70;
 }

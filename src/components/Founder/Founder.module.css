@@ -1,7 +1,7 @@
 @reference "../../app/globals.css";
 
 .founder {
-  @apply bg-white px-4 py-20;
+  @apply bg-cream px-4 py-20;
 }
 
 .inner {
@@ -9,11 +9,11 @@
 }
 
 .heading {
-  @apply text-center text-sm font-semibold uppercase tracking-widest text-red-600;
+  @apply text-center text-sm font-semibold uppercase tracking-widest text-logo-blue;
 }
 
 .name {
-  @apply mb-10 mt-2 text-center text-3xl font-bold text-blue-900 md:text-4xl;
+  @apply mb-10 mt-2 text-center text-3xl font-bold text-navy md:text-4xl;
 }
 
 .excerpt {
@@ -26,7 +26,7 @@
 }
 
 .summary {
-  @apply inline-flex cursor-pointer items-center gap-2 font-semibold text-red-600 hover:text-red-700;
+  @apply inline-flex cursor-pointer items-center gap-2 font-semibold text-logo-blue hover:text-navy;
   list-style: none;
 }
 

@@ -2,8 +2,8 @@ export const site = {
   name: "Christian Haitian Outreach",
   shortName: "CHO",
   hero: {
-    tagline: "TAGLINE FROM OLD SITE",
-    subtext: "A short sentence about what CHO does.",
+    tagline: "Helping Haiti's Children Since 1974",
+    subtext: "Christian Haitian Outreach",
   },
   about: {
     heading: "New Beginnings",
