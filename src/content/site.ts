@@ -43,7 +43,7 @@ export const site = {
     heading: "Support the Children of Haiti",
     intro:
       "Your gift will provide food, education, health care, and a loving home for the children of Haiti.  Thank you for your support!",
-    paypalUrl: "#",
+    paypalUrl: "https://www.paypal.com/donate/?hosted_button_id=4TAQ6E7GKPCV4",
     zellePhone: "(305) 458-1098",
   },// ask your dad whether CHO accepts checks by mail to the PO Box. 
   // ask if CHO wants Apple Pay, a hosted donation page could een replace the PayPal button entirely,

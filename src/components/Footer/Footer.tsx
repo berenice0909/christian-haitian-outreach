@@ -38,9 +38,6 @@ export default function Footer() {
               {contact.phone}
             </a>
           </p>
-          <a href={site.donateUrl} className={styles.donate}>
-            Donate
-          </a>
         </div>
       </div>
 
