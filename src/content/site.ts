@@ -69,6 +69,7 @@ export const site = {
       date: "2023-06-01",
       body: "A letter from our president, Pastor Albert James, thanking supporters and introducing Dr. Franco Jean-Louis, who grew up in the orphanage and now leads the work in Haiti.",
       file: "/documents/cho-newsletter-2023-06.pdf",
+      fileLabel: "Read the newsletter (PDF)",
     },
     {
       title: "Sed do eiusmod tempor",

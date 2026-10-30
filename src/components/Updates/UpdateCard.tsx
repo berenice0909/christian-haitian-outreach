@@ -5,6 +5,7 @@ type Props = {
   date: string;
   body: string;
   file?: string;
+  fileLabel?: string;
 };
 
 function formatDate(date: string) {
@@ -16,7 +17,7 @@ function formatDate(date: string) {
   });
 }
 
-export default function UpdateCard({ title, date, body, file }: Props) {
+export default function UpdateCard({ title, date, body, file, fileLabel = "Download PDF" }: Props) {
   return (
     <article className={styles.card}>
       <time dateTime={date} className={styles.date}>
@@ -26,7 +27,7 @@ export default function UpdateCard({ title, date, body, file }: Props) {
       <p className={styles.body}>{body}</p>
       {file && (
         <a href={file} target="_blank" rel="noopener noreferrer" className={styles.file}>
-          Read the newsletter (PDF)
+          {fileLabel}
         </a>
       )}
     </article>
