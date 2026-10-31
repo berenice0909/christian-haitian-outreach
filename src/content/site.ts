@@ -37,9 +37,10 @@ export const site = {
       "She began in 1974 when she found infant twins on a garbage dump with their terminally ill mother, who had been evicted from her little hut because she could not pay the $3.00 per month for rent. The mother then signed her babies over to Eleanor Workman before she died, and the orphanage ministry was born. Eleanor acquired land, built a building and her family grew rapidly.",
       "CHO's ministry came into being because Eleanor Workman, a choir director and active church worker with a successful job, heard the call to full-time missions work. She answered the call by laying aside her own ambitions and dedicating her life to serve needy children in Haiti. She has seen countless miracles of supply and intervention despite impossible circumstances. Her life and ministry inspire others to totally commit themselves to God and see His divine purposes fulfilled in their lives.",
     ],
-    videoUrl: "https://youtu.be/LVefa4MchC4",
+    videoUrl: "https://youtu.be/SN8Chep11xU",
   },
   donate: {
+    eyebrow: "Give",
     heading: "Support the Children of Haiti",
     intro:
       "Your gift will provide food, education, health care, and a loving home for the children of Haiti.  Thank you for your support!",

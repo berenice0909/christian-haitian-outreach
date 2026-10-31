@@ -9,7 +9,7 @@ import Wave from "@/components/Wave/Wave";
 
 export default function Home() {
   return (
-    <main className="flex-1">
+    <main id="main" className="flex-1">
       <Hero />
       <About />
       <Wave above="var(--band-white)" below="var(--band-cream)" />

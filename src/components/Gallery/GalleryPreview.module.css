@@ -1,7 +1,7 @@
 @reference "../../app/globals.css";
 
 .section {
-  @apply bg-cream py-16;
+  @apply bg-cream py-14 md:py-16;
 }
 
 .heading {
@@ -35,7 +35,7 @@
 }
 
 .button {
-  @apply inline-block rounded-lg bg-navy px-6 py-3 font-semibold text-white transition-colors hover:bg-purple;
+  @apply inline-block rounded-full bg-navy px-8 py-3 font-semibold text-white transition-colors hover:bg-purple;
 }
 
 @keyframes slide {

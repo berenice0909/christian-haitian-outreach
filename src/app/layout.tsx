@@ -21,7 +21,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${headingFont.variable} ${bodyFont.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-      <Header />
+        <a href="#main" className="skip-link">
+          Skip to main content
+        </a>
+        <Header />
         {children}
         <Footer />
         </body>

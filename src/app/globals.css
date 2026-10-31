@@ -62,3 +62,26 @@ html {
   scroll-behavior: smooth;
   scroll-padding-top: 4rem;
 }
+/* Keyboard focus: a clear blue ring (yellow on the dark hero and footer) that only shows when tabbing, not on mouse clicks */
+:focus-visible {
+  outline: 3px solid var(--color-logo-blue);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* Hidden until a keyboard user tabs to it */
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -100px;
+  z-index: 100;
+  padding: 0.75rem 1.25rem;
+  border-radius: 9999px;
+  background: var(--color-navy);
+  color: #fff;
+  font-weight: 700;
+}
+
+.skip-link:focus {
+  top: 1rem;
+}

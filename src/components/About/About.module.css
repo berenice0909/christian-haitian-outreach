@@ -1,7 +1,7 @@
 @reference "../../app/globals.css";
 
 .about {
-  @apply bg-white px-4 py-20;
+  @apply bg-white px-4 py-14 md:py-16;
 }
 
 .inner {

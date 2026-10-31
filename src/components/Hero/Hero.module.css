@@ -1,7 +1,7 @@
 @reference "../../app/globals.css";
 
 .hero {
-  @apply flex min-h-[70vh] items-center justify-center px-4 text-center text-white;
+  @apply flex min-h-[65vh] items-center justify-center px-4 text-center text-white;
   background-image: var(--hero-gradient);
 }
 
@@ -28,4 +28,8 @@
 
 .secondary {
   @apply rounded-full border-2 border-white px-8 py-3 font-semibold hover:bg-white hover:text-navy;
+}
+/* Yellow focus ring so keyboard users can see it on the dark gradient */
+.hero :focus-visible {
+  outline-color: var(--color-logo-yellow);
 }

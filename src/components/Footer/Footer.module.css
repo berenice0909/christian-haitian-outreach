@@ -25,3 +25,7 @@
 .bottom {
   @apply border-t border-white/15 py-4 text-center text-sm text-white/70;
 }
+/* Yellow focus ring so keyboard users can see it on the dark gradient */
+.footer :focus-visible {
+  outline-color: var(--color-logo-yellow);
+}

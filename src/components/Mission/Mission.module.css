@@ -1,7 +1,7 @@
 @reference "../../app/globals.css";
 
 .mission {
-  @apply bg-cream px-4 py-20;
+  @apply bg-cream px-4 py-14 md:py-16;
 }
 
 .inner {

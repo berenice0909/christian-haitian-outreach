@@ -12,7 +12,7 @@ export default function UpdatesPage() {
   const updates = [...site.updates].sort((a, b) => b.date.localeCompare(a.date));
 
   return (
-    <main className={styles.page}>
+    <main id="main" className={styles.page}>
       <div className={styles.inner}>
         <h1 className={styles.heading}>Updates</h1>
         <p className={styles.intro}>The latest news from CHO.</p>

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 export default function GalleryPage() {
   return (
-    <main className={styles.page}>
+    <main id="main" className={styles.page}>
       <div className={styles.inner}>
         <h1 className={styles.heading}>Photo Gallery</h1>
         <p className={styles.intro}>

@@ -57,7 +57,11 @@ export default function Header() {
               {item.label}
             </Link>
           ))}
-          <a href={site.donateUrl} className={styles.donate}>
+          <a
+            href={site.donateUrl}
+            onClick={() => setOpen(false)}
+            className={styles.donate}
+          >
             Donate
           </a>
         </nav>

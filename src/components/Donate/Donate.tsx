@@ -8,6 +8,7 @@ export default function Donate() {
     return (
         <section id="donate" className={styles.donate}>
             <div className={styles.inner}>
+                <p className={styles.eyebrow}>{donate.eyebrow}</p>
                 <h2 className={styles.heading}>{donate.heading}</h2>
                 <p className={styles.intro}>{donate.intro}</p>
 
