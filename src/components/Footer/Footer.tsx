@@ -1,5 +1,6 @@
 import { site } from "@/content/site";
 import styles from "./Footer.module.css";
+import CopyEmail from "./CopyEmail";
 
 export default function Footer() {
   const { contact } = site;
@@ -28,11 +29,7 @@ export default function Footer() {
 
         <div>
           <h2 className={styles.heading}>Get in Touch</h2>
-          <p>
-            <a href={`mailto:${contact.email}`} className={styles.link}>
-              {contact.email}
-            </a>
-          </p>
+          <CopyEmail email={contact.email} />
           <p>
             <a href={`tel:${contact.phone}`} className={styles.link}>
               {contact.phone}

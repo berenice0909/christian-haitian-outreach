@@ -21,6 +21,22 @@
   @apply text-white/80 underline-offset-4 hover:text-white hover:underline;
 }
 
+.emailRow {
+  @apply flex flex-wrap items-center gap-x-1 gap-y-1;
+}
+
+.copy {
+  @apply rounded-md p-1.5 text-white/70 transition-colors hover:bg-white/10 hover:text-white;
+}
+
+.icon {
+  @apply h-4.5 w-4.5;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
 
 .bottom {
   @apply border-t border-white/15 py-4 text-center text-sm text-white/70;
