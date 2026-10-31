@@ -4,7 +4,7 @@ import UpdateCard from "@/components/Updates/UpdateCard";
 import styles from "./page.module.css";
 
 export const metadata: Metadata = {
-  title: "Updates | Christian Haitian Outreach",
+  title: "Updates",
   description: "News and updates from Christian Haitian Outreach in Haiti.",
 };
 

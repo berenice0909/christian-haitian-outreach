@@ -4,7 +4,7 @@ import GalleryGrid from "@/components/Gallery/GalleryGrid";
 import styles from "./page.module.css";
 
 export const metadata: Metadata = {
-  title: "Photo Gallery | Christian Haitian Outreach",
+  title: "Photo Gallery",
   description:
     "Photos of the children, staff, and daily life at Christian Haitian Outreach in Haiti.",
 };
