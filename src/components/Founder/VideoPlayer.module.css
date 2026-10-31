@@ -18,6 +18,11 @@
     @apply scale-105 object-cover;
   }
 
+/* Custom photos: keep faces in view when cropped to the wide banner */
+.customThumbnail {
+  object-position: center 28%;
+}
+
 .overlay {
   @apply absolute inset-0 flex cursor-pointer flex-col items-center justify-center gap-4 bg-black/50 text-white transition-colors hover:bg-black/40;
 }

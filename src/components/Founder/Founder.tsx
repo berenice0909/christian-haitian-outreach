@@ -16,6 +16,7 @@ export default function Founder() {
           videoId={videoId}
           title={`Video about ${founder.name}`}
           label="Watch Her Story"
+          thumbnail={founder.videoThumbnail}
         />
 
         <p className={styles.excerpt}>{founder.excerpt}</p>

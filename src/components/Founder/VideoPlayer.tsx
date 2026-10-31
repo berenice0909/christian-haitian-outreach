@@ -8,9 +8,11 @@ type Props = {
   videoId: string;
   title: string;
   label: string;
+  // Optional custom cover image; falls back to YouTube's own thumbnail
+  thumbnail?: string;
 };
 
-export default function VideoPlayer({ videoId, title, label }: Props) {
+export default function VideoPlayer({ videoId, title, label, thumbnail }: Props) {
   const [playing, setPlaying] = useState(false);
 
   return (
@@ -28,11 +30,11 @@ export default function VideoPlayer({ videoId, title, label }: Props) {
       ) : (
         <>
           <Image
-            src={`https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`}
+            src={thumbnail ?? `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`}
             alt=""
             fill
             sizes="(min-width: 896px) 896px, 100vw"
-            className={styles.thumbnail}
+            className={`${styles.thumbnail} ${thumbnail ? styles.customThumbnail : ""}`}
           />
           <button
             type="button"

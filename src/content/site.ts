@@ -18,7 +18,7 @@ export const site = {
       "Christian Haitian Outreach is a multifaceted ministry reaching out to heal, educate, feed and house the hurting children in Haiti. We are dedicated to:",
 
     photo: {
-      src: "/images/gallery/boy-girl-silly-faces.jpg",
+      src: "/images/gallery/boy-girl-silly-faces-full.jpg",
       alt: "A young boy and girl making surprised, silly faces",
     },
     points: [
@@ -38,6 +38,9 @@ export const site = {
       "CHO's ministry came into being because Eleanor Workman, a choir director and active church worker with a successful job, heard the call to full-time missions work. She answered the call by laying aside her own ambitions and dedicating her life to serve needy children in Haiti. She has seen countless miracles of supply and intervention despite impossible circumstances. Her life and ministry inspire others to totally commit themselves to God and see His divine purposes fulfilled in their lives.",
     ],
     videoUrl: "https://youtu.be/SN8Chep11xU",
+    // Cover image shown before the video plays. Leave undefined to use YouTube's thumbnail,
+    // or set a path like "/images/founder-video-cover.jpg" (file in public/images).
+    videoThumbnail: "/images/franco_hugging_mom.jpg" as string | undefined,
   },
   donate: {
     eyebrow: "Give",
@@ -52,7 +55,7 @@ export const site = {
   //  But choosing a payment provider means fees, who manages the account, where the money lands)
   gallery: [
     { src: "/images/gallery/franco-hugging.jpg", alt: "Dr. Franco Jean-Louis hugging a young child" },
-    { src: "/images/gallery/boy-girl-silly-faces.jpg", alt: "A young boy and girl making surprised, silly faces" },
+    { src: "/images/gallery/boy-girl-silly-faces-full.jpg", alt: "A young boy and girl making surprised, silly faces" },
     { src: "/images/gallery/lunch-room.jpg", alt: "Children eating lunch together in the dining room" },
     { src: "/images/gallery/sleeping-arrangement.jpg", alt: "Beds lined up in the children's sleeping room" },
     { src: "/images/gallery/toddler-in-yellow.jpg", alt: "A smiling toddler dressed in yellow" },
