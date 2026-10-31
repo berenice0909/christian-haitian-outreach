@@ -23,7 +23,7 @@
 }
 
 .desktopNav {
-  @apply hidden items-center gap-6 md:flex;
+  @apply hidden items-center gap-6 lg:flex;
 }
 
 .link {
@@ -35,9 +35,9 @@
 }
 
 .menuButton {
-  @apply p-2 text-2xl md:hidden;
+  @apply p-2 text-2xl lg:hidden;
 }
 
 .mobileNav {
-  @apply flex flex-col gap-4 border-t border-gray-200 bg-white px-4 py-4 md:hidden;
+  @apply flex flex-col gap-4 border-t border-gray-200 bg-white px-4 py-4 lg:hidden;
 }
