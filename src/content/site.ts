@@ -8,7 +8,7 @@ export const site = {
   about: {
     heading: "New Beginnings",
     paragraphs: [
-      "Founded by Eleanor \"Mom\" Workman in 1974, Christian Haitian Outreach (CHO) supports the orphans, children, and poor of Haiti.",
+      "Founded by Eleanor \"Mother\" Workman in 1974, Christian Haitian Outreach (CHO) supports the orphans, children, and poor of Haiti.",
       "We are excited to announce that Mom's precious son, Dr. Franco Jean-Louis, is now overseeing CHO and all operations in Haiti. He is continuing Mom Eleanor's vision and honoring her legacy through the care of her precious children and organization.",
     ],
   },
@@ -94,7 +94,7 @@ export const site = {
   contact: {
     physicalAddress: ["897 Lynbrook Court", "North Augusta, SC 29860"],
     mailingAddress: ["PO Box 7007", "North Augusta, SC 29861"],
-    email: "contact@christianhaitianoutreach.org",
+    email: "drfranco@christianhaitianoutreach.org",
     phone: "305-458-1098",
   },
 
